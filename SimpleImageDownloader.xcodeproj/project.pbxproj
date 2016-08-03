@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4388071F1D2D36B100A488E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388071E1D2D36B100A488E9 /* AppDelegate.swift */; };
+		438807211D2D36B100A488E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438807201D2D36B100A488E9 /* ViewController.swift */; };
+		438807241D2D36B100A488E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438807221D2D36B100A488E9 /* Main.storyboard */; };
+		438807261D2D36B100A488E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438807251D2D36B100A488E9 /* Assets.xcassets */; };
+		438807291D2D36B100A488E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438807271D2D36B100A488E9 /* LaunchScreen.storyboard */; };
+		438807341D2D36B100A488E9 /* SimpleImageDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438807331D2D36B100A488E9 /* SimpleImageDownloaderTests.swift */; };
+		4388073F1D2D36B100A488E9 /* SimpleImageDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388073E1D2D36B100A488E9 /* SimpleImageDownloaderUITests.swift */; };
+		4388074D1D2D3B7100A488E9 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388074C1D2D3B7100A488E9 /* ImageDownloader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438807301D2D36B100A488E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438807131D2D36B100A488E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4388071A1D2D36B100A488E9;
+			remoteInfo = SimpleImageDownloader;
+		};
+		4388073B1D2D36B100A488E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438807131D2D36B100A488E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4388071A1D2D36B100A488E9;
+			remoteInfo = SimpleImageDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4388071B1D2D36B100A488E9 /* SimpleImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4388071E1D2D36B100A488E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		438807201D2D36B100A488E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		438807231D2D36B100A488E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438807251D2D36B100A488E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438807281D2D36B100A488E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4388072A1D2D36B100A488E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4388072F1D2D36B100A488E9 /* SimpleImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438807331D2D36B100A488E9 /* SimpleImageDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImageDownloaderTests.swift; sourceTree = "<group>"; };
+		438807351D2D36B100A488E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4388073A1D2D36B100A488E9 /* SimpleImageDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleImageDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4388073E1D2D36B100A488E9 /* SimpleImageDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImageDownloaderUITests.swift; sourceTree = "<group>"; };
+		438807401D2D36B100A488E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4388074C1D2D3B7100A488E9 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438807181D2D36B100A488E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4388072C1D2D36B100A488E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438807371D2D36B100A488E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438807121D2D36B100A488E9 = {
+			isa = PBXGroup;
+			children = (
+				4388071D1D2D36B100A488E9 /* SimpleImageDownloader */,
+				438807321D2D36B100A488E9 /* SimpleImageDownloaderTests */,
+				4388073D1D2D36B100A488E9 /* SimpleImageDownloaderUITests */,
+				4388071C1D2D36B100A488E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4388071C1D2D36B100A488E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4388071B1D2D36B100A488E9 /* SimpleImageDownloader.app */,
+				4388072F1D2D36B100A488E9 /* SimpleImageDownloaderTests.xctest */,
+				4388073A1D2D36B100A488E9 /* SimpleImageDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4388071D1D2D36B100A488E9 /* SimpleImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				4388071E1D2D36B100A488E9 /* AppDelegate.swift */,
+				438807201D2D36B100A488E9 /* ViewController.swift */,
+				438807221D2D36B100A488E9 /* Main.storyboard */,
+				438807251D2D36B100A488E9 /* Assets.xcassets */,
+				438807271D2D36B100A488E9 /* LaunchScreen.storyboard */,
+				4388072A1D2D36B100A488E9 /* Info.plist */,
+				4388074C1D2D3B7100A488E9 /* ImageDownloader.swift */,
+			);
+			path = SimpleImageDownloader;
+			sourceTree = "<group>";
+		};
+		438807321D2D36B100A488E9 /* SimpleImageDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				438807331D2D36B100A488E9 /* SimpleImageDownloaderTests.swift */,
+				438807351D2D36B100A488E9 /* Info.plist */,
+			);
+			path = SimpleImageDownloaderTests;
+			sourceTree = "<group>";
+		};
+		4388073D1D2D36B100A488E9 /* SimpleImageDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4388073E1D2D36B100A488E9 /* SimpleImageDownloaderUITests.swift */,
+				438807401D2D36B100A488E9 /* Info.plist */,
+			);
+			path = SimpleImageDownloaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4388071A1D2D36B100A488E9 /* SimpleImageDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438807431D2D36B100A488E9 /* Build configuration list for PBXNativeTarget "SimpleImageDownloader" */;
+			buildPhases = (
+				438807171D2D36B100A488E9 /* Sources */,
+				438807181D2D36B100A488E9 /* Frameworks */,
+				438807191D2D36B100A488E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleImageDownloader;
+			productName = SimpleImageDownloader;
+			productReference = 4388071B1D2D36B100A488E9 /* SimpleImageDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4388072E1D2D36B100A488E9 /* SimpleImageDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438807461D2D36B100A488E9 /* Build configuration list for PBXNativeTarget "SimpleImageDownloaderTests" */;
+			buildPhases = (
+				4388072B1D2D36B100A488E9 /* Sources */,
+				4388072C1D2D36B100A488E9 /* Frameworks */,
+				4388072D1D2D36B100A488E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438807311D2D36B100A488E9 /* PBXTargetDependency */,
+			);
+			name = SimpleImageDownloaderTests;
+			productName = SimpleImageDownloaderTests;
+			productReference = 4388072F1D2D36B100A488E9 /* SimpleImageDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		438807391D2D36B100A488E9 /* SimpleImageDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438807491D2D36B100A488E9 /* Build configuration list for PBXNativeTarget "SimpleImageDownloaderUITests" */;
+			buildPhases = (
+				438807361D2D36B100A488E9 /* Sources */,
+				438807371D2D36B100A488E9 /* Frameworks */,
+				438807381D2D36B100A488E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4388073C1D2D36B100A488E9 /* PBXTargetDependency */,
+			);
+			name = SimpleImageDownloaderUITests;
+			productName = SimpleImageDownloaderUITests;
+			productReference = 4388073A1D2D36B100A488E9 /* SimpleImageDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438807131D2D36B100A488E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yohoho;
+				TargetAttributes = {
+					4388071A1D2D36B100A488E9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F3546JTKHT;
+					};
+					4388072E1D2D36B100A488E9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F3546JTKHT;
+						TestTargetID = 4388071A1D2D36B100A488E9;
+					};
+					438807391D2D36B100A488E9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F3546JTKHT;
+						TestTargetID = 4388071A1D2D36B100A488E9;
+					};
+				};
+			};
+			buildConfigurationList = 438807161D2D36B100A488E9 /* Build configuration list for PBXProject "SimpleImageDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438807121D2D36B100A488E9;
+			productRefGroup = 4388071C1D2D36B100A488E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4388071A1D2D36B100A488E9 /* SimpleImageDownloader */,
+				4388072E1D2D36B100A488E9 /* SimpleImageDownloaderTests */,
+				438807391D2D36B100A488E9 /* SimpleImageDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438807191D2D36B100A488E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438807291D2D36B100A488E9 /* LaunchScreen.storyboard in Resources */,
+				438807261D2D36B100A488E9 /* Assets.xcassets in Resources */,
+				438807241D2D36B100A488E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4388072D1D2D36B100A488E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438807381D2D36B100A488E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438807171D2D36B100A488E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438807211D2D36B100A488E9 /* ViewController.swift in Sources */,
+				4388074D1D2D3B7100A488E9 /* ImageDownloader.swift in Sources */,
+				4388071F1D2D36B100A488E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4388072B1D2D36B100A488E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438807341D2D36B100A488E9 /* SimpleImageDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438807361D2D36B100A488E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4388073F1D2D36B100A488E9 /* SimpleImageDownloaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438807311D2D36B100A488E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4388071A1D2D36B100A488E9 /* SimpleImageDownloader */;
+			targetProxy = 438807301D2D36B100A488E9 /* PBXContainerItemProxy */;
+		};
+		4388073C1D2D36B100A488E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4388071A1D2D36B100A488E9 /* SimpleImageDownloader */;
+			targetProxy = 4388073B1D2D36B100A488E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		438807221D2D36B100A488E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438807231D2D36B100A488E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		438807271D2D36B100A488E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438807281D2D36B100A488E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438807411D2D36B100A488E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438807421D2D36B100A488E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438807441D2D36B100A488E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleImageDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yohoho.SimpleImageDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		438807451D2D36B100A488E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleImageDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yohoho.SimpleImageDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		438807471D2D36B100A488E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yohoho.SimpleImageDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleImageDownloader.app/SimpleImageDownloader";
+			};
+			name = Debug;
+		};
+		438807481D2D36B100A488E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yohoho.SimpleImageDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleImageDownloader.app/SimpleImageDownloader";
+			};
+			name = Release;
+		};
+		4388074A1D2D36B100A488E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleImageDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yohoho.SimpleImageDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleImageDownloader;
+			};
+			name = Debug;
+		};
+		4388074B1D2D36B100A488E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleImageDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yohoho.SimpleImageDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleImageDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438807161D2D36B100A488E9 /* Build configuration list for PBXProject "SimpleImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438807411D2D36B100A488E9 /* Debug */,
+				438807421D2D36B100A488E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438807431D2D36B100A488E9 /* Build configuration list for PBXNativeTarget "SimpleImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438807441D2D36B100A488E9 /* Debug */,
+				438807451D2D36B100A488E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		438807461D2D36B100A488E9 /* Build configuration list for PBXNativeTarget "SimpleImageDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438807471D2D36B100A488E9 /* Debug */,
+				438807481D2D36B100A488E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		438807491D2D36B100A488E9 /* Build configuration list for PBXNativeTarget "SimpleImageDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4388074A1D2D36B100A488E9 /* Debug */,
+				4388074B1D2D36B100A488E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438807131D2D36B100A488E9 /* Project object */;
+}

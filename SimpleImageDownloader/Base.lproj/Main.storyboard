@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hxF-Dh-2FM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleImageDownloader" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="0bS-q0-bzs">
+                                <rect key="frame" x="282" y="543" width="37" height="37"/>
+                                <color key="color" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoImage" translatesAutoresizingMaskIntoConstraints="NO" id="4gh-rf-tfu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4gh-rf-tfu" secondAttribute="trailing" constant="-20" id="07i-pI-rHC"/>
+                            <constraint firstItem="4gh-rf-tfu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="2nc-Iu-4NH"/>
+                            <constraint firstItem="4gh-rf-tfu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="3Y0-rP-QxY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0bS-q0-bzs" secondAttribute="bottom" constant="20" id="9Sx-AX-FK2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4gh-rf-tfu" secondAttribute="bottom" id="hIk-CF-Hlv"/>
+                            <constraint firstItem="0bS-q0-bzs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xYl-CA-ZXY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2TY-2u-4DO">
+                        <barButtonItem key="leftBarButtonItem" title="Upload" id="fgR-Gu-wHz">
+                            <connections>
+                                <action selector="updateButtonPressed:" destination="BYZ-38-t0r" id="5EX-VS-PR1"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Clear" id="KhM-EV-HsO">
+                            <connections>
+                                <action selector="clearButtonPressed:" destination="BYZ-38-t0r" id="dax-GH-Cnw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicator" destination="0bS-q0-bzs" id="scD-9N-93R"/>
+                        <outlet property="image" destination="4gh-rf-tfu" id="z76-QI-dh9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="398"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DpH-KS-6nz">
+            <objects>
+                <navigationController id="hxF-Dh-2FM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MkK-GL-TJx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="skB-CU-EtO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAT-aM-j99" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-387" y="398"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NoImage" width="600" height="600"/>
+    </resources>
+</document>
